@@ -1,0 +1,108 @@
+*
+{
+    margin: 0;
+    padding: 0; 
+}
+
+.nav-bar{
+    background: #1d4052;
+    color: #fff;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.nav-bar h2{
+    height: 45px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+
+.menu-right{
+    text-align: right;
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    
+}
+
+span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width: 700px){
+    span
+    {
+        display: block;
+    }
+    ul li{
+        display: block;
+    }
+    ul{
+        display: none;
+       
+    }
+}
+
+
+#About, #Service, #Contact, #Feedback, #Home{
+    min-height: 100vh;
+    min-width: 100vh;
+}
+footer{
+    
+    min-width: 100vh;
+}
+h1{
+    text-align: center;
+    font-size:xx-large;
+}
+h3{
+    text-align: center;
+     padding: 330px 0;
+     font-size: 44px;
+     font-weight: 550;
+ }
+footer p{
+    text-align: center;
+    text-decoration:underline
+
+}
+footer{
+    height: 50px;
+}
+
+#Feedback{
+    background-color: blue;
+}
+#About{
+    background-color: aqua;
+}
+#Contact{
+    background-color: chocolate;
+}
+#Service{
+    background-color: darkviolet;
+}
+footer{
+    background-color:bisque;
+}
+
+
+.nav-bar .menu-right ul li a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 7;
+}
+a:active, a:hover{
+    border:1px solid var(--primary);
+    transition: .5s;
+}
